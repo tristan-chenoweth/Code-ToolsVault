@@ -1,0 +1,15 @@
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\bin\Debug\net6.0\switchStatements.exe
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\bin\Debug\net6.0\switchStatements.deps.json
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\bin\Debug\net6.0\switchStatements.runtimeconfig.json
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\bin\Debug\net6.0\switchStatements.dll
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\bin\Debug\net6.0\switchStatements.pdb
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\obj\Debug\net6.0\switchStatements.csproj.AssemblyReference.cache
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\obj\Debug\net6.0\switchStatements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\obj\Debug\net6.0\switchStatements.AssemblyInfoInputs.cache
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\obj\Debug\net6.0\switchStatements.AssemblyInfo.cs
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\obj\Debug\net6.0\switchStatements.csproj.CoreCompileInputs.cache
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\obj\Debug\net6.0\switchStatements.dll
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\obj\Debug\net6.0\refint\switchStatements.dll
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\obj\Debug\net6.0\switchStatements.pdb
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\obj\Debug\net6.0\switchStatements.genruntimeconfig.cache
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\switchStatements\obj\Debug\net6.0\ref\switchStatements.dll

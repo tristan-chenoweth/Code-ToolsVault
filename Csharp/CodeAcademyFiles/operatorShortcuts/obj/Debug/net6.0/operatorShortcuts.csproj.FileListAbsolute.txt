@@ -1,0 +1,15 @@
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\bin\Debug\net6.0\operatorShortcuts.exe
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\bin\Debug\net6.0\operatorShortcuts.deps.json
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\bin\Debug\net6.0\operatorShortcuts.runtimeconfig.json
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\bin\Debug\net6.0\operatorShortcuts.dll
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\bin\Debug\net6.0\operatorShortcuts.pdb
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\obj\Debug\net6.0\operatorShortcuts.csproj.AssemblyReference.cache
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\obj\Debug\net6.0\operatorShortcuts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\obj\Debug\net6.0\operatorShortcuts.AssemblyInfoInputs.cache
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\obj\Debug\net6.0\operatorShortcuts.AssemblyInfo.cs
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\obj\Debug\net6.0\operatorShortcuts.csproj.CoreCompileInputs.cache
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\obj\Debug\net6.0\operatorShortcuts.dll
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\obj\Debug\net6.0\refint\operatorShortcuts.dll
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\obj\Debug\net6.0\operatorShortcuts.pdb
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\obj\Debug\net6.0\operatorShortcuts.genruntimeconfig.cache
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\operatorShortcuts\obj\Debug\net6.0\ref\operatorShortcuts.dll
