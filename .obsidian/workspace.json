@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7e456ae1bef42d24",
+        "id": "e59b35eabea589b3",
         "type": "tabs",
         "children": [
           {
-            "id": "4d198672f910d9b0",
+            "id": "eab3a9e1d889410f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/8Ball/ReadMe.md",
+                "file": "ReadMe.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/8Ball/ReadMe.md",
+                "file": "ReadMe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/8Ball/ReadMe.md",
+                "file": "ReadMe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/8Ball/ReadMe.md"
+                "file": "ReadMe.md"
               }
             }
           },
@@ -177,8 +177,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4d198672f910d9b0",
+  "active": "eab3a9e1d889410f",
   "lastOpenFiles": [
+    "PHP/PHPcontents.md",
+    "Python/SudokuSolver/ReadMe.md",
+    "Python/PythonContents.md",
+    "ReadMe.md",
+    "C/Ccontents.md",
+    "JavaScript/8Ball/ReadMe.md",
     "CodeVault.iml.tmp",
     "Python/SimpleCalculatorGUI/simpleCalculatorGUI.py",
     "testFiles/python/calculatorChatGPT.py",
@@ -190,30 +196,23 @@
     "Python/SimpleCounterGUI/ReadMe.md",
     "Python/SimpleCounterGUI/simpleCounterGUI.py",
     "Python/SimpleCounterGUI",
-    "testFiles/java/numberGameGUI.java",
     "Java/simpleWindow/ReadMe.md",
     "Java/numberGuessingGame/ReadMe.md",
     "Java/Calculator/ReadMe.md",
     "Java/JavaContents.md",
-    "ReadMe.md",
     "Swift/SwiftContents.md",
     "SQL/SQLcontents.md",
     "Ruby/RubyContents.md",
     "React/ReactContents.md",
     "R/Rcontents.md",
-    "Python/PythonContents.md",
-    "PHP/PHPcontents.md",
     "JavaScript/JavaScriptContents.md",
     "HTML/HTMLcontents.md",
     "Go/GoContents.md",
     "Csharp/CsharpContents.md",
     "CplusPlus/CplusPlusContents.md",
-    "C/Ccontents.md",
-    "Python/SudokuSolver/ReadMe.md",
     "JavaScript/8Ball/node_modules/strip-ansi/readme.md",
     "JavaScript/8Ball/node_modules/prompt-sync/README.md",
     "Csharp/CodeAcademyFiles/ReadMe.md",
-    "Csharp/CodeAcademyFiles/README.md",
-    "JavaScript/8Ball/ReadMe.md"
+    "Csharp/CodeAcademyFiles/README.md"
   ]
 }
