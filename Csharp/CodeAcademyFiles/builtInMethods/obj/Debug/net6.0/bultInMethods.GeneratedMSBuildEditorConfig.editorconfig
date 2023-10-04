@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = basicCSharpFiles
-build_property.ProjectDir = c:\Users\trist\Desktop\codeFolder\C#\cSharpCode\basicCSharpFiles\
+build_property.RootNamespace = bultInMethods
+build_property.ProjectDir = c:\Users\chenowt\Documents\ObsidianVault\AmazonVault\theMotherVault\NestedVaults\Code-ToolsVault\Csharp\CodeAcademyFiles\builtInMethods\
