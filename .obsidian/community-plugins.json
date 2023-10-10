@@ -3,5 +3,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "execute-code",
   "obsidian-show-file-path",
-  "settings-search"
+  "settings-search",
+  "templater-obsidian"
 ]

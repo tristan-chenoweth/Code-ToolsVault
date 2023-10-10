@@ -1,0 +1,15 @@
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\bin\Debug\net6.0\numericalDataTypes.exe
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\bin\Debug\net6.0\numericalDataTypes.deps.json
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\bin\Debug\net6.0\numericalDataTypes.runtimeconfig.json
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\bin\Debug\net6.0\numericalDataTypes.dll
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\bin\Debug\net6.0\numericalDataTypes.pdb
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\obj\Debug\net6.0\numericalDataTypes.csproj.AssemblyReference.cache
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\obj\Debug\net6.0\numericalDataTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\obj\Debug\net6.0\numericalDataTypes.AssemblyInfoInputs.cache
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\obj\Debug\net6.0\numericalDataTypes.AssemblyInfo.cs
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\obj\Debug\net6.0\numericalDataTypes.csproj.CoreCompileInputs.cache
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\obj\Debug\net6.0\numericalDataTypes.dll
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\obj\Debug\net6.0\refint\numericalDataTypes.dll
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\obj\Debug\net6.0\numericalDataTypes.pdb
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\obj\Debug\net6.0\numericalDataTypes.genruntimeconfig.cache
+C:\Users\trist\Desktop\codeFolder\C#\cSharpCode\numericalDataTypes\obj\Debug\net6.0\ref\numericalDataTypes.dll

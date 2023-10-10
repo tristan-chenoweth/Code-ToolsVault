@@ -11,15 +11,20 @@
             "id": "eab3a9e1d889410f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ReadMe.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "52fa46bde8adaee7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ReadMe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ReadMe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ReadMe.md"
-              }
+              "state": {}
             }
           },
           {
@@ -177,23 +178,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7148db479c2abd4b",
+  "active": "52fa46bde8adaee7",
   "lastOpenFiles": [
-    "desktop.ini",
-    "Csharp/CodeAcademyFiles/stringInterpolation/obj/Debug/net6.0/refint",
-    "Csharp/CodeAcademyFiles/stringInterpolation/obj/Debug/net6.0/ref",
-    "Csharp/CodeAcademyFiles/ternaryOperators/obj/Debug/net6.0/refint",
-    "Csharp/CodeAcademyFiles/ternaryOperators/obj/Debug/net6.0/ref",
-    "Csharp/CodeAcademyFiles/stringInterpolation/bin/Debug/net6.0",
-    "Csharp/CodeAcademyFiles/stringInterpolation/bin/Debug",
-    "Csharp/CodeAcademyFiles/stringInterpolation/bin",
-    "Csharp/CodeAcademyFiles/manipulateStrings/obj/Debug/net6.0/refint",
-    "Csharp/CodeAcademyFiles/manipulateStrings/obj/Debug/net6.0/ref",
-    "Csharp/CodeAcademyFiles/manipulateStrings/bin/Debug/net6.0",
+    "ReadMe.md",
+    "CodeLanguages/JavaScript/8Ball/node_modules/node/bin/node.exe",
+    "CodeLanguages/Java/Calculator/calculator.java",
+    "CodeLanguages/Java/numberGuessingGame/numberGame.java",
+    "CodeLanguages/JavaScript/8Ball/node_modules/prompt-sync/index.js",
+    "CodeLanguages/Python/SimpleCounterGUI/simpleCounterGUI.py",
+    "CodeLanguages/JavaScript/8Ball/node_modules/prompt-sync/README.md",
+    "CodeLanguages/Java/simpleWindow/simpleWindow.java",
+    "CodeLanguages/Python/SudokuSolver/sudokuSolver.py",
+    "CodeLanguages/JavaScript/8Ball/node_modules/ansi-regex/readme.md",
+    "CodeLanguages/JavaScript/8Ball/package-lock.json",
+    "CodeLanguages/JavaScript/8Ball/node_modules/node-bin-setup/index.js",
+    "CodeLanguages/JavaScript/8Ball/node_modules/strip-ansi/readme.md",
+    "CodeLanguages/JavaScript/8Ball/main.mjs",
+    "CodeLanguages/JavaScript/8Ball/node_modules/node/README.md",
     "PHP/PHPcontents.md",
     "Python/SudokuSolver/ReadMe.md",
     "Python/PythonContents.md",
-    "ReadMe.md",
     "C/Ccontents.md",
     "JavaScript/8Ball/ReadMe.md",
     "Python/SimpleCounterGUI/ReadMe.md",
@@ -210,10 +214,6 @@
     "HTML/HTMLcontents.md",
     "Go/GoContents.md",
     "Csharp/CsharpContents.md",
-    "CplusPlus/CplusPlusContents.md",
-    "JavaScript/8Ball/node_modules/strip-ansi/readme.md",
-    "JavaScript/8Ball/node_modules/prompt-sync/README.md",
-    "Csharp/CodeAcademyFiles/ReadMe.md",
-    "Csharp/CodeAcademyFiles/README.md"
+    "CplusPlus/CplusPlusContents.md"
   ]
 }
