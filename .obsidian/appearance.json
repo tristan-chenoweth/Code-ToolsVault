@@ -2,5 +2,6 @@
   "accentColor": "#312eff",
   "translucency": true,
   "interfaceFontFamily": "Lucida Console,Consolas,Inter",
-  "baseFontSize": 14
+  "baseFontSize": 14,
+  "showViewHeader": true
 }

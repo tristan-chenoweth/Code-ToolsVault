@@ -2,5 +2,6 @@
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "Attachments",
   "alwaysUpdateLinks": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "foldHeading": true
 }
