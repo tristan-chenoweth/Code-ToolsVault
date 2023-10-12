@@ -1,4 +1,5 @@
 ### [Home Directory](/CodeLanguages/ReadMe.md)
+
 ### [Python Directory](/CodeLanguages/Python/PythonContents.md)
 
 As of now the Sudoku Solver is complete. It can take input from a comma delimited file or by user input. The user input option does not check for errors in the input given but does check length of row input. 

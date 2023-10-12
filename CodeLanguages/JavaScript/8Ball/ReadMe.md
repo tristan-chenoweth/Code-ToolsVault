@@ -1,4 +1,5 @@
 ### [Home Directory](/CodeLanguages/ReadMe.md)
+
 ### [JavaScript Directory](/CodeLanguages/JavaScript/JavaScriptContents.md)
 Requirements to run the Magic 8 Ball:
 	Node.js (use LTS version) must be installed for prompt to work correctly in a command line or terminal environment. 

@@ -1,5 +1,7 @@
 ### [Home Directory](/CodeLanguages/ReadMe.md)
 
+### [Java Directory](/CodeLanguages/Java/JavaContents.md)
+
 Clicking the below link will either open within the editor you are using. 
 If viewing from Git Hub it will open the code file for viewing.
 ### [Calculator Java File](calculator.java)

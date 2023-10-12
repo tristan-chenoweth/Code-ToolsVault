@@ -1,6 +1,10 @@
+# Code Languages ReadMe
+
+### [Main Vault ReadMe](/ReadMe.md)
+
 For running and viewing code it is recommended to view the entirety of the Code Vault using your code editor of choice. Be sure to open the CodeVault folder as the root directory. It contains all files and necessary dependencies for all programs to work correctly.
 
-A list of the languages contained within the CodeVault are listed below. Clicking them will take you to the content directory of that coding language.
+A list of the languages contained within the Code Vault are listed below. Clicking them will take you to the content directory of that coding language.
 
 ### [C](./C/Ccontents.md)
 ### [C++](./CplusPlus/CplusPlusContents.md)
@@ -15,6 +19,6 @@ A list of the languages contained within the CodeVault are listed below. Clickin
 ### [R](./R/Rcontents.md)
 ### [React](./React/ReactContents.md)
 ### [Ruby](./Ruby/RubyContents.md)
-### [TypeScript](./SQL/TypeScriptContents.md)
+### [TypeScript](./TypeScript/TypeScriptContents.md)
 ### [SQL](./SQL/SQLcontents.md)
 ### [Swift](./Swift/SwiftContents.md)
