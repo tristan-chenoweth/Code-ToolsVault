@@ -1,8 +1,8 @@
 [
   "obsidian-git",
-  "cm-editor-syntax-highlight-obsidian",
   "execute-code",
   "obsidian-show-file-path",
   "settings-search",
-  "templater-obsidian"
+  "templater-obsidian",
+  "cm-editor-syntax-highlight-obsidian"
 ]

@@ -181,6 +181,8 @@
   },
   "active": "52fa46bde8adaee7",
   "lastOpenFiles": [
+    "CodeLanguages/Python/SudokuSolver/sudokuSolverCode.md",
+    "CodeLanguages/Python/SimpleCounterGUI/simpleCounterGUIcode.md",
     "Tools/Information.md",
     "ReadMe.md",
     "Tools",
@@ -214,8 +216,6 @@
     "R/Rcontents.md",
     "JavaScript/JavaScriptContents.md",
     "HTML/HTMLcontents.md",
-    "Go/GoContents.md",
-    "Csharp/CsharpContents.md",
-    "CplusPlus/CplusPlusContents.md"
+    "Go/GoContents.md"
   ]
 }
