@@ -1,5 +1,5 @@
 {
-  "commitMessage": "Code Vault Maunal backup: {{date}}",
+  "commitMessage": "Code Vault Manual backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 5,
   "autoPushInterval": 5,
