@@ -8,4 +8,6 @@ This Vault is also designed to work with Obsidian as well. If opening with obsid
 
 ## To view all code language directories use the link to the ReadMe file below.
 ### [Code Launguages ReadMe](./CodeLanguages/ReadMe.md)
-## When viewing in Obsidian there are a few 
+
+## For viewing in Obsidian
+For viewing code directly in Obsidian each ReadMe file has a link to a markdown file that will open the code directly in Obsidian for viewing.
