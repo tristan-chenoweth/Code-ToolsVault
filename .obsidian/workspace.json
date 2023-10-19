@@ -8,19 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eab3a9e1d889410f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "52fa46bde8adaee7",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
+            }
+          },
+          {
+            "id": "300be3a6130a0e71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReadMe.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -105,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ReadMe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ReadMe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ReadMe.md"
+              }
             }
           },
           {
@@ -179,7 +187,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "52fa46bde8adaee7",
+  "active": "300be3a6130a0e71",
   "lastOpenFiles": [
     "CodeLanguages/Python/SudokuSolver/sudokuSolverCode.md",
     "CodeLanguages/Python/SimpleCounterGUI/simpleCounterGUIcode.md",
