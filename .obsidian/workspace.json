@@ -189,6 +189,14 @@
   },
   "active": "a182b39da2f01f25",
   "lastOpenFiles": [
+    "CodeLanguages/JavaScript/CodeAcademyFiles/arrayManipulation/arrayManipulation.mjs",
+    "Tools/vsCodeExtensions/extensionsList.md",
+    "Tools/vsCodeExtensions/extensions1.png",
+    "Tools/vsCodeExtensions/extensions2.png",
+    "Tools/vsCodeExtensions",
+    "CodeLanguages/JavaScript/CodeAcademyFiles/ReadMe.md",
+    "CodeLanguages/JavaScript/CodeAcademyFiles/arrayManipulation",
+    "CodeLanguages/JavaScript/CodeAcademyFiles",
     "CodeLanguages/Python/SudokuSolver/sudokuSolverCode.md",
     "ReadMe.md",
     "CodeLanguages/Python/SimpleCounterGUI/simpleCounterGUIcode.md",
@@ -201,10 +209,7 @@
     "CodeLanguages/JavaScript/8Ball/node_modules/prompt-sync/index.js",
     "CodeLanguages/Python/SimpleCounterGUI/simpleCounterGUI.py",
     "CodeLanguages/JavaScript/8Ball/node_modules/prompt-sync/README.md",
-    "CodeLanguages/Java/simpleWindow/simpleWindow.java",
-    "CodeLanguages/Python/SudokuSolver/sudokuSolver.py",
     "CodeLanguages/JavaScript/8Ball/node_modules/ansi-regex/readme.md",
-    "CodeLanguages/JavaScript/8Ball/package-lock.json",
     "CodeLanguages/JavaScript/8Ball/node_modules/strip-ansi/readme.md",
     "CodeLanguages/JavaScript/8Ball/node_modules/node/README.md",
     "PHP/PHPcontents.md",
@@ -221,9 +226,6 @@
     "SQL/SQLcontents.md",
     "Ruby/RubyContents.md",
     "React/ReactContents.md",
-    "R/Rcontents.md",
-    "JavaScript/JavaScriptContents.md",
-    "HTML/HTMLcontents.md",
-    "Go/GoContents.md"
+    "R/Rcontents.md"
   ]
 }

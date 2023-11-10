@@ -4,7 +4,7 @@
 
 All files that are in the CodeAcademyFiles directory are simple programs that are topics that were covered when working through the Code Academy course on C#.
 
-Most of these file are basic operations within C# and are included as references.
+Most of these file are basic operations within C# and are included as references and include comments within to explain operations.
 
 [Arithmetic Operators](arithmeticOperators/Program.cs)
 [Boolean Data Types](booleanDataTypes/Program.cs)
