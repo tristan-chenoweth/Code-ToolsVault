@@ -189,6 +189,14 @@
   },
   "active": "a182b39da2f01f25",
   "lastOpenFiles": [
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene-main/three.r124.min.js",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene-main/main.js",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene-main/WindowManager.js",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene-main/README.md",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene-main/three-LICENSE",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene-main/index.html",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene-main",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal",
     "desktop.ini",
     "Attachments/desktop.ini",
     "CodeLanguages/JavaScript/CodeAcademyFiles/arrayManipulation/arrayManipulation.mjs",
@@ -197,17 +205,10 @@
     "Tools/vsCodeExtensions/extensions2.png",
     "Tools/vsCodeExtensions",
     "CodeLanguages/JavaScript/CodeAcademyFiles/ReadMe.md",
-    "CodeLanguages/JavaScript/CodeAcademyFiles/arrayManipulation",
-    "CodeLanguages/JavaScript/CodeAcademyFiles",
     "CodeLanguages/Python/SudokuSolver/sudokuSolverCode.md",
     "ReadMe.md",
     "CodeLanguages/Python/SimpleCounterGUI/simpleCounterGUIcode.md",
     "Tools/Information.md",
-    "Tools",
-    "CodeLanguages/JavaScript/8Ball/node_modules/node/bin/node.exe",
-    "CodeLanguages/Java/Calculator/calculator.java",
-    "CodeLanguages/Java/numberGuessingGame/numberGame.java",
-    "CodeLanguages/JavaScript/8Ball/node_modules/prompt-sync/index.js",
     "CodeLanguages/JavaScript/8Ball/node_modules/prompt-sync/README.md",
     "CodeLanguages/JavaScript/8Ball/node_modules/ansi-regex/readme.md",
     "CodeLanguages/JavaScript/8Ball/node_modules/strip-ansi/readme.md",
@@ -225,7 +226,6 @@
     "Swift/SwiftContents.md",
     "SQL/SQLcontents.md",
     "Ruby/RubyContents.md",
-    "React/ReactContents.md",
-    "R/Rcontents.md"
+    "React/ReactContents.md"
   ]
 }
