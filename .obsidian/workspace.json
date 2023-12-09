@@ -173,6 +173,12 @@
   },
   "active": "52fa46bde8adaee7",
   "lastOpenFiles": [
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/three.r124.min.js",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/main.js",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/WindowManager.js",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/README.md",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/three-LICENSE",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/index.html",
     "Tools/vsCodeExtensions/extensions1.png",
     "Tools/vsCodeExtensions/extensionsList.md",
     "Tools/vsCodeExtensions/extensions2.png",
@@ -183,12 +189,8 @@
     "testFiles/python/calculatorChatGPT.py",
     "testFiles/java/numberGameGUI.java",
     "testFiles/python",
-    "testFiles/java",
-    "testFiles",
     "Templates/ReadMeProgramTemplate.md",
     "Templates/ReadMeLanguageTemplate.md",
-    "Templates",
-    "SoftwareDownloads",
     "CodeLanguages/JavaScript/8Ball/node_modules/strip-ansi/readme.md",
     "CodeLanguages/JavaScript/8Ball/node_modules/prompt-sync/README.md",
     "CodeLanguages/JavaScript/8Ball/node_modules/node/README.md",
@@ -208,7 +210,6 @@
     "CodeLanguages/Csharp/CodeAcademyFiles/ReadMe.md",
     "CodeLanguages/TypeScript/TypeScriptContents.md",
     "CodeLanguages/Swift/SwiftContents.md",
-    "CodeLanguages/SQL/SQLcontents.md",
-    "CodeLanguages/Ruby/RubyContents.md"
+    "CodeLanguages/SQL/SQLcontents.md"
   ]
 }
