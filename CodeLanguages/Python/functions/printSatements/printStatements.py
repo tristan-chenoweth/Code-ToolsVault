@@ -1,3 +1,6 @@
+# handle imports
+import os
+
 # this file contains all useful print statement information for python
 
 text = "testing text"
@@ -19,3 +22,11 @@ print("This line has a \nline break")
 print("This line has a line break at the end that has been stripped before printing\n".rstrip())
 print("\nThis line has a line break at the begining that has been stripped before printing".lstrip())
 print("\nThis line has a line break at the begining and the end that has been stripped before printing\n".strip())
+
+# The following line calls a function from an import and prints to the terminal
+print(os.getlogin())
+
+# The following line uses concatination to print a message with a number
+
+print("This numebr is concatenated: " + str(49))
+
