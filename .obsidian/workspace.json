@@ -173,6 +173,7 @@
   },
   "active": "52fa46bde8adaee7",
   "lastOpenFiles": [
+    "CodeLanguages/Python/functions/ReadMe.md",
     "CodeLanguages/Python/functions/printSatements/ReadMe.md",
     "CodeLanguages/Python/functions/printSatements/printStatements.py",
     "CodeLanguages/Python/functions/printSatements",
@@ -209,7 +210,6 @@
     "CodeLanguages/Java/numberGuessingGame/ReadMe.md",
     "CodeLanguages/Java/Calculator/ReadMe.md",
     "CodeLanguages/HTML/CSS/CSScontents.md",
-    "CodeLanguages/Csharp/CodeAcademyFiles/ReadMe.md",
-    "CodeLanguages/TypeScript/TypeScriptContents.md"
+    "CodeLanguages/Csharp/CodeAcademyFiles/ReadMe.md"
   ]
 }
