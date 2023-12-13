@@ -13,4 +13,7 @@ print(text)
 print(number)
 print(array)
 
+# The following lines show how to handle inline line breaks
+
+print("This line has a\n line break")
 
