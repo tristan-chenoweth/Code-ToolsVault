@@ -3,7 +3,7 @@ import os
 
 # this file contains all useful print statement information for python
 
-text = "testing text"
+text = "Text stored in a variable"
 number = 8
 array = [1,2,3]
 
@@ -28,5 +28,5 @@ print(os.getlogin())
 
 # The following line uses concatination to print a message with a number
 
-print("This numebr is concatenated: " + str(49))
+print("This number is concatenated: " + str(49))
 
