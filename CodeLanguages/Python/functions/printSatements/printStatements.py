@@ -16,5 +16,6 @@ print(array)
 # The following lines show how to handle inline line breaks
 
 print("This line has a \nline break")
-print("This line has a \nline break that has been stripped before printing\n".rstrip("\n"))
-
+print("This line has a line break at the end that has been stripped before printing\n".rstrip())
+print("\nThis line has a line break at the begining that has been stripped before printing".lstrip())
+print("\nThis line has a line break at the begining and the end that has been stripped before printing\n".strip())
