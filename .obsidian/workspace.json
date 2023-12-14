@@ -173,6 +173,7 @@
   },
   "active": "52fa46bde8adaee7",
   "lastOpenFiles": [
+    "desktop.ini",
     "CodeLanguages/Python/functions/ReadMe.md",
     "CodeLanguages/Python/functions/printSatements/ReadMe.md",
     "CodeLanguages/Python/functions/printSatements/printStatements.py",
@@ -181,7 +182,6 @@
     "CodeLanguages/Python/printSatements/ReadMe.md",
     "CodeLanguages/Python/printSatements/printStatements.py",
     "CodeLanguages/Python/printSatements",
-    "desktop.ini",
     "CodeLanguages/Java/UniversityJavaFiles/secureSoftwareEngineering/hw2/part1/WritingStateMachine/out/production/WritingStateMachine/WritingStateMachine.iml",
     "CodeLanguages/Java/UniversityJavaFiles/secureSoftwareEngineering/hw2/part1/WritingStateMachine/out/production/WritingStateMachine/writingState.class",
     "CodeLanguages/Java/UniversityJavaFiles/secureSoftwareEngineering/hw2/part1/WritingStateMachine/out/production/WritingStateMachine/WritingMachine.class",
@@ -209,7 +209,6 @@
     "CodeLanguages/Java/simpleWindow/ReadMe.md",
     "CodeLanguages/Java/numberGuessingGame/ReadMe.md",
     "CodeLanguages/Java/Calculator/ReadMe.md",
-    "CodeLanguages/HTML/CSS/CSScontents.md",
-    "CodeLanguages/Csharp/CodeAcademyFiles/ReadMe.md"
+    "CodeLanguages/HTML/CSS/CSScontents.md"
   ]
 }
