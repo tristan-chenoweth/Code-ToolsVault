@@ -1,6 +1,6 @@
-### [Home Directory](/CodeLanguages/ReadMe.md)
-### [Java Directory](/CodeLanguages/Java/JavaContents.md)
-### [University Java Directory](/CodeLanguages/Java/UniversityJavaFiles/ReadMe.md)
+## [Home Directory](/CodeLanguages/ReadMe.md)
+## [Java Directory](/CodeLanguages/Java/JavaContents.md)
+## [University Java Directory](/CodeLanguages/Java/UniversityJavaFiles/ReadMe.md)
 
 info
 ### [Compute Average Java File](computeAverage.java)
