@@ -1,6 +1,7 @@
+```java
 import java.util.Scanner;
 
-public class assignment_5_2 {
+public class comparatorMultipleMethods {
 	public static void main(String[] args){
 
 		Scanner input = new Scanner(System.in);
@@ -73,3 +74,4 @@ public class assignment_5_2 {
 	}
 
 }
+```

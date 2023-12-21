@@ -1,10 +1,9 @@
-public class bonus_1-2_for{
+```java
+public class forWithModulusOdd{
 	public static void main(String[] args) {
 
 		int i;
 		int count;
-
-
 
 		for(i = 101, count = 0; i < 200; i++){
 			if (i % 2 != 0){
@@ -13,7 +12,8 @@ public class bonus_1-2_for{
 			}
 			if (count == 10){
 				break;
-				}
+			}
 		}
 	}
 }
+```

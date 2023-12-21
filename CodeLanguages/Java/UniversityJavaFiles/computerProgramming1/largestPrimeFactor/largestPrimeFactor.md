@@ -1,6 +1,7 @@
+```java
 import java.util.Scanner;
 
-public class assignment_4_1 {
+public class largestPrimeFactor {
 
 	public static void main(String[] args) {
 
@@ -32,3 +33,4 @@ public class assignment_4_1 {
 
 	}
 }
+```

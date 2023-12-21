@@ -1,6 +1,7 @@
+```java
 import java.util.Scanner;
 
-	public class Calculator{
+	public class calculatorV1{
 		public static void main(String [] args){
 			int math;
 			double number_1;
@@ -56,3 +57,4 @@ import java.util.Scanner;
 
 	}
 }
+```

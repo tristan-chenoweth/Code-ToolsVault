@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class assignment_5_1 {
+public class leastCommonMultiple {
 	public static void main (String [] args){
 		int num_1;
 		int num_2;
@@ -51,6 +51,6 @@ public class assignment_5_1 {
 			}
 		}
 
-		System.out.println("The LCM of " + num_1 + "o and " + num_2 + " is " + lcm);
+		System.out.println("The LCM of " + num_1 + " and " + num_2 + " is " + lcm);
 	}
 }

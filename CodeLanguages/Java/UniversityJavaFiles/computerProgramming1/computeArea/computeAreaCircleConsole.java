@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ComputeAreaConsole	{
+public class computeAreaCircleConsole	{
 	public static void main(String[] args){
 		double radius; //declaring the variable radius
 		double area;	//declaring the variable area

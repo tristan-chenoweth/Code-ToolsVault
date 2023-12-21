@@ -1,6 +1,7 @@
+```java
  import java.util.Scanner;
 
-	public class calculator_2{
+	public class calculatorV2{
 		public static void main(String [] args){
 			int math;
 			int i;
@@ -79,3 +80,4 @@
 			}
 	}
 }
+```

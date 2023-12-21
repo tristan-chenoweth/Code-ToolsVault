@@ -1,4 +1,4 @@
-public class ComputeArea{
+public class computeAreaCircle{
 	public static void main(String[] args){
 		double radius; //declaring the variable radius
 		double area;	//declaring the variable area
@@ -6,5 +6,5 @@ public class ComputeArea{
 		area=3.14*radius*radius;
 		System.out.println("The area for the circle with the radius " + radius + "is " + area);
 
-		}
 	}
+}

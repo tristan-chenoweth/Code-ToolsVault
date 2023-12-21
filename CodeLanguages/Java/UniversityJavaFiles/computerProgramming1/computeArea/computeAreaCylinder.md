@@ -1,4 +1,5 @@
-public class ComputeArea2{
+```java
+public class computeAreaCylinder{
 	public static void main(String[] args){
 		double radius; //declaring the variable radius
 		double area;	//declaring the variable area
@@ -6,7 +7,8 @@ public class ComputeArea2{
 		height=25.6;
 		radius=10.2;
 		area=2*3.1415*radius*height+2*3.1415*(radius*radius);
-		System.out.println("The area for the cilinder with the radius " + radius + " and the height " + height + " is " + area + " square units");
+		System.out.println("The area for the cylinder with the radius " + radius + " and the height " + height + " is " + area + " square units");
 
-		}
 	}
+}
+```

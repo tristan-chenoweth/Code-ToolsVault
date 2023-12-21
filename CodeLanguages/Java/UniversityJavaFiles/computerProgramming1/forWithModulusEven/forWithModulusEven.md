@@ -1,4 +1,5 @@
-public class bonus_1_for{
+```java
+public class forWithModulusEven{
 	public static void main(String[] args) {
 
 		int i;
@@ -10,3 +11,4 @@ public class bonus_1_for{
 		}
 	}
 }
+```
