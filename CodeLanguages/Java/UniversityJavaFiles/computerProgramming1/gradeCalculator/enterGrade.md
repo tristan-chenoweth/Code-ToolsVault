@@ -1,5 +1,6 @@
+```java
 import java.util.Scanner;
-	public class EnterGrade_2 {
+	public class enterGrade {
 		public static void main (String []args){
 
 			System.out.println ("Enter your score: ");
@@ -28,9 +29,13 @@ import java.util.Scanner;
 			if (marks>=80){
 				System.out.println("Congrats");
 			}
+			else if (marks>=70 && marks<=80){
+				System.out.println("No too bad!");
+			}
 			else {
-				System.out.println("You can do better than that you fucking bumbass motherfucker...you shithead");
+				System.out.println("You can do better than that!");
 			}
 
 		}
 	}
+```

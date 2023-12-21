@@ -1,6 +1,6 @@
 import java.util.Scanner; //allows for the use of thescanner
 
-public class ComputeBudget {
+public class computeBudget {
 	public static void main(String[] args){
 		double budget; //variable for budget
 		double grocery; //variable for grocery

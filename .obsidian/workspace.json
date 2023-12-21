@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "cffd517de524df5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e59b35eabea589b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52fa46bde8adaee7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "60b63582e27e5d43",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ed2b687f84280e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7148db479c2abd4b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d514cfbebf43c0e3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Contents",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f4011fabef04c210",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "1631856d24f45b0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0da704a9fb15b46a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "55e0271981b92271",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0d7dc0412fd3b3e",
+        "type": "tabs",
+        "dimension": 54.06976744186047,
+        "children": [
+          {
+            "id": "db05ed8a7d7c02b0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f48ac3795dab5967",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "99258135fd9df0a2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "12da2daebcb86555",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "de180fc7a89c5a09",
+        "type": "tabs",
+        "dimension": 45.93023255813953,
+        "children": [
+          {
+            "id": "228794397860dd88",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "52fa46bde8adaee7",
+  "lastOpenFiles": [
+    "CodeLanguages/Java/UniversityJavaFiles/ReadMe.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/gradeCalculator/enterGrade.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/gradeCalculator/ReadMe.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/gradeCalculator/enterGrade.java",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/gradeCalculator",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/candyCalculator/ReadMe.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/candyCalculator/candyCalculator.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/candyCalculator/candyCalculator.java",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/candyCalculator",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleBudget/ReadMe.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleBudget/computeBudget.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleBudget/computeBudget.java",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleBudget",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/averageNumbers/computeAverage.java",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/averageNumbers/ReadMe.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/averageNumbers/computeAverage.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/averageNumbers",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleGrid/simpleGrid.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleGrid/ReadMe.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/computeArea/computeAreaCircleConsole.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/computeArea/ReadMe.md",
+    "desktop.ini",
+    "CodeLanguages/SQL/SimpleDataTable/databaseFiles",
+    "CodeLanguages/Python/functions/ReadMe.md",
+    "CodeLanguages/Python/functions/printSatements/ReadMe.md",
+    "CodeLanguages/Python/printSatements/ReadMe.md",
+    "CodeLanguages/Java/UniversityJavaFiles/README.md",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/README.md",
+    "Tools/vsCodeExtensions/extensions1.png",
+    "Tools/vsCodeExtensions/extensionsList.md",
+    "Tools/vsCodeExtensions/extensions2.png",
+    "Tools/Information.md",
+    "Templates/ReadMeProgramTemplate.md",
+    "Templates/ReadMeLanguageTemplate.md",
+    "CodeLanguages/JavaScript/8Ball/node_modules/strip-ansi/readme.md",
+    "CodeLanguages/JavaScript/8Ball/node_modules/prompt-sync/README.md",
+    "CodeLanguages/JavaScript/8Ball/node_modules/node/README.md",
+    "CodeLanguages/JavaScript/8Ball/node_modules/ansi-regex/readme.md"
+  ]
+}

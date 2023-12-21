@@ -1,6 +1,7 @@
+```java
 import java.util.Scanner; //allows for the use of scanner
 
-public class ComputeCandy {
+public class candyCalculator {
 	public static void main(String[] args){
 		double volume; //variable for volume
 		double radius; //variable for radius
@@ -21,3 +22,4 @@ public class ComputeCandy {
 
 		}
 }
+```

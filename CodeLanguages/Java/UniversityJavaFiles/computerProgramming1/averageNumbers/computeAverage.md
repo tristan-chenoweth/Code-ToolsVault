@@ -1,6 +1,7 @@
+```java
 import java.util.Scanner;
 
-public class ComputeAverage {
+public class computeAverage {
 	public static void main(String[] args){
 		double variable1;
 		double variable2;
@@ -24,3 +25,4 @@ public class ComputeAverage {
 
 		}
 }
+```
