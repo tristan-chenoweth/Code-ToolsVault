@@ -23,12 +23,12 @@ public class mersenne_primes
 
 		for(BigInteger i = BigInteger.ZERO; i.compareTo(p) <= 0; i = i.add(BigInteger.ONE))
 		{
-			if(i.isProbablePrime(100) == true)
+			if(i.isProbablePrime(90) == true)
 			{
 				exponent = i.intValue();
 				BigInteger pow_base = new BigInteger("2");
 				BigInteger info = pow_base.pow(exponent).subtract(BigInteger.ONE);
-				if (info.isProbablePrime(100) == true)
+				if (info.isProbablePrime(90) == true)
 				{
 					System.out.println(i + "\t" + info);
 				}
