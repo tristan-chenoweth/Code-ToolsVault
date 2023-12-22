@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EvenOdd5{
+public class evenOddBy5{
 	public static void main(String [] args){
 		double num;
 

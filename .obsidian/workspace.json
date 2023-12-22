@@ -173,6 +173,13 @@
   },
   "active": "52fa46bde8adaee7",
   "lastOpenFiles": [
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/evenOddBy5.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/evenOddBy5.java",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/evenOdd.java",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/EvenOdd5.java",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/ReadMe.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/evenOdd.md",
+    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck",
     "CodeLanguages/Python/SudokuSolver/userManualInput_sudoku_solved.txt",
     "CodeLanguages/Python/SudokuSolver/userManualInput_sudoku.txt",
     "desktop.ini",
@@ -184,15 +191,10 @@
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/candyCalculator/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/candyCalculator/candyCalculator.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/candyCalculator/candyCalculator.java",
-    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/candyCalculator",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleBudget/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleBudget/computeBudget.md",
-    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleBudget/computeBudget.java",
-    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleBudget",
-    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/averageNumbers/computeAverage.java",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/averageNumbers/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/averageNumbers/computeAverage.md",
-    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/averageNumbers",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleGrid/simpleGrid.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleGrid/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/computeArea/computeAreaCircleConsole.md",
@@ -208,8 +210,6 @@
     "Tools/Information.md",
     "Templates/ReadMeProgramTemplate.md",
     "Templates/ReadMeLanguageTemplate.md",
-    "CodeLanguages/JavaScript/8Ball/node_modules/strip-ansi/readme.md",
-    "CodeLanguages/JavaScript/8Ball/node_modules/prompt-sync/README.md",
-    "CodeLanguages/JavaScript/8Ball/node_modules/node/README.md"
+    "CodeLanguages/JavaScript/8Ball/node_modules/strip-ansi/readme.md"
   ]
 }

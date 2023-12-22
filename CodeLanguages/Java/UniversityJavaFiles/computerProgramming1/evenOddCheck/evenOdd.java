@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class even_odd{
+public class evenOdd{
 	public static void main(String[] args) {
 		int x;
 		System.out.println("Enter your number that is greater than 0 to see if it is even or odd");
