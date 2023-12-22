@@ -1,11 +1,13 @@
 import java.util.Scanner;
+import java.time.LocalDate;
 
 public class leap_year{
 
 	public static void main(String[] args)  {
 
 		int year;
-		int current_year = 2016;
+		LocalDate currentDate = LocalDate.now();
+		int current_year =  currentDate.getYear();
 
 		Scanner input = new Scanner(System.in);
 
