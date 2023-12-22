@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Tax calculations based off of March 2022 tax brackets
+// Tax calculations based off of old tax bracket data
 
 	public class Taxes{
 		public static void main(String [] args){
