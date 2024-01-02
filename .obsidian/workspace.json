@@ -181,6 +181,7 @@
   },
   "active": "52fa46bde8adaee7",
   "lastOpenFiles": [
+    "desktop.ini",
     "CodeLanguages/Python/PongGame/ReadMe.md",
     "CodeLanguages/Python/PongGame",
     "CodeLanguages/Python/PongGame/pong.py",
@@ -194,7 +195,6 @@
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck",
     "CodeLanguages/Python/SudokuSolver/userManualInput_sudoku_solved.txt",
     "CodeLanguages/Python/SudokuSolver/userManualInput_sudoku.txt",
-    "desktop.ini",
     "CodeLanguages/Java/UniversityJavaFiles/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/gradeCalculator/enterGrade.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/gradeCalculator/ReadMe.md",
@@ -217,7 +217,6 @@
     "Tools/vsCodeExtensions/extensionsList.md",
     "Tools/vsCodeExtensions/extensions2.png",
     "Tools/Information.md",
-    "Templates/ReadMeProgramTemplate.md",
-    "Templates/ReadMeLanguageTemplate.md"
+    "Templates/ReadMeProgramTemplate.md"
   ]
 }
