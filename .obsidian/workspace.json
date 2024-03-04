@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4848bb34ea0a1022",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -181,7 +192,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "52fa46bde8adaee7",
+  "active": "4848bb34ea0a1022",
   "lastOpenFiles": [
     "desktop.ini",
     "CodeLanguages/Python/PongGame/ReadMe.md",
