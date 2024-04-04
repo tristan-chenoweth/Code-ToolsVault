@@ -22,8 +22,10 @@ public class big_pi
 
 		for (int i = 0; i < iterations; i++)
 		{
-			// ???????? figure out how to concatinate calc
+			calc = calc + Math.PI;
 		}
+
+		pi_ = calc/iterations;
 
 		System.out.println("Estimate: " + pi_);
 	}
