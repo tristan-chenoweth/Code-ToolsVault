@@ -10,6 +10,7 @@ public class big_pi
 
 		BigDecimal iterations;
 		int decimal_places;
+		BigDecimal PIbig = new BigDecimal("0");
 		BigDecimal pi_ = new BigDecimal("0");
 
 		System.out.println("Enter number of iterations: ");
@@ -20,13 +21,13 @@ public class big_pi
 
 		BigDecimal calc;
 
-		for (int i = 0; i < iterations; i++)
+		for (int i = 0; i < iterations.intValue; i++)
 		{
-			calc = calc + ((BigDecimal)Math.PI);
+			calc = calc.add(PIbig);
 		}
 
 		pi_ = calc.divide((BigDecimal)iterations);
 
-		System.out.println("Estimate: " + pi_);
+		System.out.println("Estimate: " + pi_.setScale(decimal_places, BigDecimal.ROUND_HALF_DOWN));
 	}
 }
