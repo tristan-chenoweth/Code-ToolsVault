@@ -194,6 +194,8 @@
   },
   "active": "4848bb34ea0a1022",
   "lastOpenFiles": [
+    "CodeLanguages/Java/OriginsRebornBedrockBetterMenus/test.md",
+    "CodeLanguages/Java/OriginsRebornBedrockBetterMenus/Untitled.md",
     "CodeLanguages/Java/OriginsRebornBedrockBetterMenus",
     "CodeLanguages/Java/New folder",
     "CodeLanguages/HTML/DashboardProject/MasterDashboard.html",
@@ -205,7 +207,6 @@
     "desktop.ini",
     "CodeLanguages/Python/PongGame/ReadMe.md",
     "CodeLanguages/Python/PongGame",
-    "CodeLanguages/Python/PongGame/pong.py",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/evenOddBy5.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/evenOdd.md",
@@ -230,7 +231,6 @@
     "Tools/vsCodeExtensions/extensions1.png",
     "Tools/vsCodeExtensions/extensionsList.md",
     "Tools/vsCodeExtensions/extensions2.png",
-    "Tools/Information.md",
-    "Templates/ReadMeProgramTemplate.md"
+    "Tools/Information.md"
   ]
 }
