@@ -26,9 +26,9 @@ def onAddButtonClick():
     counterWindowLabel.config(text=f"Count at {count}", font=customFont2)
 
     # Print information to console for troubleshooting (uncomment the following 3 lines to see information in console)
-    #print("Add 1 button pressed.")
-    #print(f"User display count at: {count}")
-    #print(f"Add Button clicked {addButtonPressCount} times")
+    print("Add 1 button pressed.")
+    print(f"User display count at: {count}")
+    print(f"Add Button clicked {addButtonPressCount} times")
  
 # Define onDoubleButtonClick function
 def onDoubleButtonClick():
@@ -38,8 +38,8 @@ def onDoubleButtonClick():
     global doubleButtonPressCount
 
     # Print information to console for troubleshooting (uncomment the following 2 lines to see information in console)
-    #print("Double button pressed.")
-    #print(f"User display count at: {count} before doubling")
+    print("Double button pressed.")
+    print(f"User display count at: {count} before doubling")
 
     # Adjust count to double current count value
     count = count * 2 
@@ -50,8 +50,8 @@ def onDoubleButtonClick():
     counterWindowLabel.config(text=f"Count at {count}", font=customFont2)
 
     # Print information to console for troubleshooting (uncomment the following 2 lines to see information in console)
-    # print(f"User display count at: {count} after doubling")
-    # print(f"Double Button clicked {doubleButtonPressCount} times")
+    print(f"User display count at: {count} after doubling")
+    print(f"Double Button clicked {doubleButtonPressCount} times")
 
 # Define on_reset_button_click function
 def onResetButtonClick(): 
@@ -69,19 +69,19 @@ def onResetButtonClick():
     counterWindowLabel.config(text=f"Count at {count}", font=customFont2)
 
     # Print information to console for troubleshooting (uncomment the following 3 lines to see information in console)
-    #print("Counter reset by button")
-    #print(f"User display count at: {count}")
-    #print(f"Reset Button clicked {resetButtonPressCount} times")
+    print("Counter reset by button")
+    print(f"User display count at: {count}")
+    print(f"Reset Button clicked {resetButtonPressCount} times")
 
 # Define on_exit_button_click function
 def onExitButtonClick():
 
     # Print information to console for troubleshooting (uncomment the following 5 lines to see information in console)
-    #print(f"Add button presses: {addButtonPressCount}")
-    #print(f"Double button presses: {doubleButtonPressCount}")
-    #print(f"Reset button presses: {resetButtonPressCount}")
-    #print(f"Total button presses: {addButtonPressCount + doubleButtonPressCount + resetButtonPressCount + 1}")
-    #print("Code Terminated by Exit button.")
+    print(f"Add button presses: {addButtonPressCount}")
+    print(f"Double button presses: {doubleButtonPressCount}")
+    print(f"Reset button presses: {resetButtonPressCount}")
+    print(f"Total button presses: {addButtonPressCount + doubleButtonPressCount + resetButtonPressCount + 1}")
+    print("Code Terminated by Exit button.")
 
     # Send quit to GUI to close window and exit program
     root.quit()

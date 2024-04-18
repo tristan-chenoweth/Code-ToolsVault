@@ -86,7 +86,7 @@ while True:
         if initial_countdown_timer == 0:
             initial_countdown_active = False
             countdown_active = True
-
+            
     # Countdown logic
     elif countdown_active:
         countdown_text = countdown_font.render(str(countdown_timer), True, (0, 0, 0))
