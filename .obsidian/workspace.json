@@ -52,6 +52,16 @@
             }
           },
           {
+            "id": "e1c0c44eb49c4514",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
+          },
+          {
             "id": "4848bb34ea0a1022",
             "type": "leaf",
             "state": {
@@ -72,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -234,7 +244,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be3f2d6d549ef51c",
+  "active": "e1c0c44eb49c4514",
   "lastOpenFiles": [
     "desktop.ini",
     "CodeLanguages/Python/PongGame/ReadMe.md",
