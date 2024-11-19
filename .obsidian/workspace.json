@@ -84,6 +84,18 @@
             }
           },
           {
+            "id": "fa1197012f1b3811",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
+          },
+          {
             "id": "4848bb34ea0a1022",
             "type": "leaf",
             "state": {
@@ -108,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 5,
+        "currentTab": 6,
         "stacked": true
       }
     ],
@@ -198,7 +210,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CodeLanguages/Python/PongGame/ReadMe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +219,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ReadMe"
+              "title": "Backlinks"
             }
           },
           {
@@ -288,7 +299,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5b93ce16b33c38b",
+  "active": "fa1197012f1b3811",
   "lastOpenFiles": [
     "desktop.ini",
     "testFiles/desktop.ini",
