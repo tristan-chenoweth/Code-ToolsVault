@@ -21,12 +21,17 @@ player_paddle = pygame.Rect(WIDTH // 2 - 50, HEIGHT - 20, 100, 10)
 ball = pygame.Rect(WIDTH // 2 - 15, HEIGHT // 2 - 15, 30, 30)
 ball_speed = [random.choice([-BALL_SPEED, BALL_SPEED]), BALL_SPEED]
 
+  
+
 # Initial countdown variables
+
 initial_countdown_font = pygame.font.Font(None, 36)
+
 initial_countdown_timer = 3
+
 initial_countdown_active = True
 
-# Countdown variables
+  # Countdown variables
 countdown_font = pygame.font.Font(None, 36)
 countdown_timer = 3
 countdown_active = False
