@@ -4,5 +4,6 @@
   "obsidian-show-file-path",
   "settings-search",
   "templater-obsidian",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "code-styler"
 ]
