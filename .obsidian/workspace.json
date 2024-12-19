@@ -245,6 +245,8 @@
   },
   "active": "f7a350668186d89c",
   "lastOpenFiles": [
+    "CodeLanguages/Python/functions/arithmeticOperators/arithmeticOperators.py",
+    "CodeLanguages/Python/functions/arithmeticOperators",
     "CodeLanguages/Python/PythonContents.md",
     "CodeLanguages/Python/PongGame/ReadMe.md",
     "Python/PongGame/ReadMe.md",
@@ -265,7 +267,6 @@
     "CodeLanguages/HTML/DashboardProject/MasterDashboard.html",
     "CodeLanguages/HTML/DashboardProject/ReadMe.txt",
     "CodeLanguages/HTML/DashboardProject",
-    "CodeLanguages/HTML/DashBoardProject",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/evenOddBy5.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/evenOdd.md",
@@ -280,7 +281,6 @@
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/averageNumbers/computeAverage.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleGrid/simpleGrid.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleGrid/ReadMe.md",
-    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/computeArea/computeAreaCircleConsole.md",
     "Tools/vsCodeExtensions/extensions1.png",
     "Tools/vsCodeExtensions/extensions2.png"
   ]
