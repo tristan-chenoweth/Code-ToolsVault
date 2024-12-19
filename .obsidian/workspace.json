@@ -34,93 +34,9 @@
               "icon": "lucide-file",
               "title": "test"
             }
-          },
-          {
-            "id": "7d8e17882a9641d8",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.6.3"
-            }
-          },
-          {
-            "id": "be3f2d6d549ef51c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.6.5"
-            }
-          },
-          {
-            "id": "e1c0c44eb49c4514",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.6.7"
-            }
-          },
-          {
-            "id": "d5b93ce16b33c38b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
-          },
-          {
-            "id": "fa1197012f1b3811",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
-          },
-          {
-            "id": "4848bb34ea0a1022",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.5.8"
-            }
-          },
-          {
-            "id": "447c9c4cfef269b3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.5.12"
-            }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -210,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for test"
             }
           },
           {
@@ -299,14 +216,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa1197012f1b3811",
+  "active": "a53682cde96667b2",
   "lastOpenFiles": [
+    "CodeLanguages/Python/PongGame/ReadMe.md",
+    "test.md",
     "CodeLanguages/Python/PongGame/pongCode.md",
     "CodeLanguages/Python/PongGame/Untitled.md",
     "desktop.ini",
     "testFiles/desktop.ini",
-    "CodeLanguages/Python/PongGame/ReadMe.md",
-    "test.md",
     "CodeLanguages/Java/OriginsRebornBedrockBetterMenus/ExtensionsList.md",
     "CodeLanguages/Java/OriginsRebornBedrockBetterMenus/test.md",
     "CodeLanguages/Java/OriginsRebornBedrockBetterMenus/Untitled.md",
