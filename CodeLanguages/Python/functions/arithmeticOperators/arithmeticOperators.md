@@ -1,3 +1,4 @@
+```python
 # 1. Arithmetic Operators
 
 print("=== Arithmetic Operators ===")
@@ -39,3 +40,4 @@ print()
 # Exponentiation
 print("Exponentiation")
 print(f"{a} ** {b} = {a ** b}") # Output: 1000
+```

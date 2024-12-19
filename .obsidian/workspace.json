@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CodeLanguages/Python/PythonContents.md",
+                "file": "CodeLanguages/Python/functions/arithmeticOperators/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PythonContents"
+              "title": "Untitled"
             }
           },
           {
@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CodeLanguages/Python/functions/ReadMe.md",
+                "file": "CodeLanguages/Python/functions/arithmeticOperators/arithmeticOperators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ReadMe"
+              "title": "arithmeticOperators"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CodeLanguages/Python/functions/ReadMe.md",
+                "file": "CodeLanguages/Python/functions/arithmeticOperators/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ReadMe"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -243,11 +243,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7a350668186d89c",
+  "active": "ec8bc6ab5e2dd70c",
   "lastOpenFiles": [
+    "CodeLanguages/Python/PythonContents.md",
+    "CodeLanguages/Python/functions/arithmeticOperators/Untitled.md",
+    "CodeLanguages/Python/functions/arithmeticOperators/arithmeticOperators.md",
+    "CodeLanguages/Python/functions/ReadMe.md",
     "CodeLanguages/Python/functions/arithmeticOperators/arithmeticOperators.py",
     "CodeLanguages/Python/functions/arithmeticOperators",
-    "CodeLanguages/Python/PythonContents.md",
     "CodeLanguages/Python/PongGame/ReadMe.md",
     "Python/PongGame/ReadMe.md",
     "Python/PongGame",
@@ -266,7 +269,6 @@
     "CodeLanguages/Java/New folder",
     "CodeLanguages/HTML/DashboardProject/MasterDashboard.html",
     "CodeLanguages/HTML/DashboardProject/ReadMe.txt",
-    "CodeLanguages/HTML/DashboardProject",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/evenOddBy5.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/evenOdd.md",
@@ -279,8 +281,6 @@
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleBudget/computeBudget.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/averageNumbers/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/averageNumbers/computeAverage.md",
-    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleGrid/simpleGrid.md",
-    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleGrid/ReadMe.md",
     "Tools/vsCodeExtensions/extensions1.png",
     "Tools/vsCodeExtensions/extensions2.png"
   ]
