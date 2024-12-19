@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CodeLanguages/Python/PongGame/ReadMe.md",
+                "file": "ReadMe.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,22 +22,49 @@
             }
           },
           {
-            "id": "a53682cde96667b2",
+            "id": "32182c9d0115ca85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
+                "file": "CodeLanguages/ReadMe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test"
+              "title": "ReadMe"
+            }
+          },
+          {
+            "id": "ec8bc6ab5e2dd70c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CodeLanguages/Python/PythonContents.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PythonContents"
+            }
+          },
+          {
+            "id": "f7a350668186d89c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CodeLanguages/Python/functions/ReadMe.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ReadMe"
             }
           }
         ],
-        "currentTab": 1,
-        "stacked": true
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -126,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
+                "file": "CodeLanguages/Python/functions/ReadMe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +163,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for test"
+              "title": "Backlinks for ReadMe"
             }
           },
           {
@@ -216,9 +243,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a53682cde96667b2",
+  "active": "f7a350668186d89c",
   "lastOpenFiles": [
+    "CodeLanguages/Python/PythonContents.md",
     "CodeLanguages/Python/PongGame/ReadMe.md",
+    "Python/PongGame/ReadMe.md",
+    "Python/PongGame",
+    "Python",
+    "CodeLanguages/ReadMe.md",
+    "ReadMe.md",
     "test.md",
     "CodeLanguages/Python/PongGame/pongCode.md",
     "CodeLanguages/Python/PongGame/Untitled.md",
@@ -233,8 +266,6 @@
     "CodeLanguages/HTML/DashboardProject/ReadMe.txt",
     "CodeLanguages/HTML/DashboardProject",
     "CodeLanguages/HTML/DashBoardProject",
-    "CodeLanguages/HTML/MasterDashboard.html",
-    "CodeLanguages/JavaScript/test.js",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/evenOddBy5.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/evenOddCheck/evenOdd.md",
@@ -250,10 +281,6 @@
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleGrid/simpleGrid.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleGrid/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/computeArea/computeAreaCircleConsole.md",
-    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/computeArea/ReadMe.md",
-    "CodeLanguages/Python/functions/ReadMe.md",
-    "CodeLanguages/Python/functions/printSatements/ReadMe.md",
-    "CodeLanguages/Python/printSatements/ReadMe.md",
     "Tools/vsCodeExtensions/extensions1.png",
     "Tools/vsCodeExtensions/extensions2.png"
   ]
