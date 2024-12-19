@@ -11,3 +11,5 @@ Clicking a link below will take you to that project's ReadMe page.
 ### [Pong Game](./PongGame/ReadMe.md)
 
 ### [Functions](./functions/ReadMe.md)
+
+### [Simple Calculator GUI](./p/ReadMe.md)
