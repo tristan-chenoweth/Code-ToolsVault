@@ -231,6 +231,7 @@
   },
   "active": "ec8bc6ab5e2dd70c",
   "lastOpenFiles": [
+    "CodeLanguages/Assembly",
     "CodeLanguages/Kotlin/ReadMe.md",
     "CodeLanguages/Kotlin",
     "CodeLanguages/kotlin",
@@ -266,7 +267,6 @@
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/candyCalculator/candyCalculator.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleBudget/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleBudget/computeBudget.md",
-    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/averageNumbers/ReadMe.md",
     "Tools/vsCodeExtensions/extensions1.png",
     "Tools/vsCodeExtensions/extensions2.png"
   ]
