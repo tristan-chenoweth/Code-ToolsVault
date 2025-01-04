@@ -231,6 +231,8 @@
   },
   "active": "ec8bc6ab5e2dd70c",
   "lastOpenFiles": [
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/main.js",
+    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/main.mjs",
     "userManualInput_sudoku_solved.txt",
     "userManualInput_sudoku.txt",
     "CodeLanguages/Assembly/test.asm",
@@ -241,8 +243,6 @@
     "CodeLanguages/koltin",
     "CodeLanguages/TypeScript/test.ts",
     "CodeLanguages/Swift/codeAcademyFiles/testingPlayground.swift",
-    "CodeLanguages/Swift/codeAcademyFiles",
-    "CodeLanguages/R/test.R",
     "CodeLanguages/Python/functions/arithmeticOperators/ReadMe.md",
     "CodeLanguages/Python/functions/arithmeticOperators/arithmeticOperators.md",
     "CodeLanguages/Python/PythonContents.md",
