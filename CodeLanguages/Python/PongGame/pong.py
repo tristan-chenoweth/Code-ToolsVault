@@ -3,7 +3,6 @@ import sys
 import random
 
 # Initialize pygame
-#ame
 pygame.init()
 
 # Constants
