@@ -231,6 +231,9 @@
   },
   "active": "ec8bc6ab5e2dd70c",
   "lastOpenFiles": [
+    "CodeLanguages/Java/numberGuessingGameGUI/numberGameGUI.java",
+    "CodeLanguages/Java/numberGuessingGameGUI/ReadMe.md",
+    "CodeLanguages/Java/numberGuessingGameGUI",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/three.r124.min.js",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/three-LICENSE",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/main.js",
@@ -241,7 +244,6 @@
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/main.js",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/main.mjs",
     "userManualInput_sudoku_solved.txt",
-    "userManualInput_sudoku.txt",
     "CodeLanguages/Kotlin/ReadMe.md",
     "CodeLanguages/Python/functions/arithmeticOperators/ReadMe.md",
     "CodeLanguages/Python/functions/arithmeticOperators/arithmeticOperators.md",
@@ -265,7 +267,6 @@
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/gradeCalculator/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/candyCalculator/ReadMe.md",
     "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/candyCalculator/candyCalculator.md",
-    "CodeLanguages/Java/UniversityJavaFiles/computerProgramming1/simpleBudget/ReadMe.md",
     "Tools/vsCodeExtensions/extensions1.png",
     "Tools/vsCodeExtensions/extensions2.png"
   ]
