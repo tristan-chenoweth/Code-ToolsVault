@@ -13,6 +13,7 @@ public class numberGameGUI {
     private JTextArea outputArea;
     private JButton checkButton;
     private JButton restartButton;
+    private JButton exitButton;
     private JRadioButton withHintsRadio;
     private JRadioButton withoutHintsRadio;
     private ButtonGroup optionGroup;
@@ -31,11 +32,13 @@ public class numberGameGUI {
         guessField = new JTextField(10);
         checkButton = new JButton("Check");
         restartButton = new JButton("Restart");
+        exitButton = new JButton("Exit");
 
         inputPanel.add(promptLabel);
         inputPanel.add(guessField);
         inputPanel.add(checkButton);
         inputPanel.add(restartButton);
+        inputPanel.add(exitButton);
 
         frame.add(inputPanel, BorderLayout.NORTH);
 
@@ -44,18 +47,16 @@ public class numberGameGUI {
 
         withHintsRadio = new JRadioButton("Play with hints");
         withoutHintsRadio = new JRadioButton("Play without hints");
-        JRadioButton exitRadio = new JRadioButton("Exit");
+
 
         withHintsRadio.setSelected(true);
 
         optionGroup = new ButtonGroup();
         optionGroup.add(withHintsRadio);
         optionGroup.add(withoutHintsRadio);
-        optionGroup.add(exitRadio);
 
         optionsPanel.add(withHintsRadio);
         optionsPanel.add(withoutHintsRadio);
-        optionsPanel.add(exitRadio);
 
         frame.add(optionsPanel, BorderLayout.CENTER);
 
@@ -90,7 +91,7 @@ public class numberGameGUI {
             }
         });
 
-        exitRadio.addActionListener(new ActionListener() {
+        exitButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 System.exit(0);
             }
