@@ -22,7 +22,7 @@ public class numberGameGUI {
     public numberGameGUI() {
         JFrame frame = new JFrame("Number Guessing Game");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400, 250);
+        frame.setSize(600, 500);
         frame.setLayout(new BorderLayout());
 
         JPanel inputPanel = new JPanel();
@@ -37,8 +37,8 @@ public class numberGameGUI {
         inputPanel.add(promptLabel);
         inputPanel.add(guessField);
         inputPanel.add(checkButton);
-        inputPanel.add(restartButton);
         inputPanel.add(exitButton);
+        inputPanel.add(restartButton);
 
         frame.add(inputPanel, BorderLayout.NORTH);
 
@@ -79,6 +79,12 @@ public class numberGameGUI {
             }
         });
 
+        exitButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
+
         withHintsRadio.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 startNewGame();
@@ -88,12 +94,6 @@ public class numberGameGUI {
         withoutHintsRadio.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 startNewGame();
-            }
-        });
-
-        exitButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                System.exit(0);
             }
         });
 
@@ -108,6 +108,7 @@ public class numberGameGUI {
         guessField.setEnabled(true);
         checkButton.setEnabled(true);
         restartButton.setEnabled(false);
+        exitButton.setEnabled(true);
         withHintsRadio.setEnabled(true);
         withoutHintsRadio.setEnabled(true);
 
