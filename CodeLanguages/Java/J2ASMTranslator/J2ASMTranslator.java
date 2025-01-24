@@ -5,6 +5,28 @@ import java.io.*;
 
 public class J2ASMTranslator {
 
+    public static void main(String[] args) {
+        String javaCode = """
+            public class Example {
+                public static void main(String[] args) {
+                    int x = 5;
+                    int y = 10;
+                    int z = x + y;
+                }
+            }
+            """;
+    
+        System.out.println("Input Java code:");
+        System.out.println(javaCode);
+        System.out.println("\nStarting translation...");
+    
+        J2ASMTranslator translator = new J2ASMTranslator();
+        String assembly = translator.translate(javaCode);
+        
+        System.out.println("\nGenerated Assembly:");
+        System.out.println(assembly);
+    }
+
     private JavaParser parser;
     private AssemblyGenerator generator;
     private Optimizer optimizer;
@@ -460,25 +482,5 @@ class SymbolInfo {
         this.type = type;
         this.scope = scope;
     }
-    public static void main(String[] args) {
-        String javaCode = """
-            public class Example {
-                public static void main(String[] args) {
-                    int x = 5;
-                    int y = 10;
-                    int z = x + y;
-                }
-            }
-            """;
     
-        System.out.println("Input Java code:");
-        System.out.println(javaCode);
-        System.out.println("\nStarting translation...");
-    
-        J2ASMTranslator translator = new J2ASMTranslator();
-        String assembly = translator.translate(javaCode);
-        
-        System.out.println("\nGenerated Assembly:");
-        System.out.println(assembly);
-    }
 }
