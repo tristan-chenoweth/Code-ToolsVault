@@ -232,6 +232,8 @@
   },
   "active": "ec8bc6ab5e2dd70c",
   "lastOpenFiles": [
+    "CodeLanguages/Java/JavaToAssembly/J2ASMTranslator.java",
+    "CodeLanguages/Java/JavaToAssembly",
     "CodeLanguages/Java/SelfGuidedTexbookWork/printMonthCalendar.java",
     "CodeLanguages/Java/SelfGuidedTexbookWork",
     "CodeLanguages/Java/numberGuessingGameGUI/numberGameGUI.java",
@@ -243,8 +245,6 @@
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/index.html",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/WindowManager.js",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/README.md",
-    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene",
-    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/main.js",
     "CodeLanguages/Kotlin/ReadMe.md",
     "CodeLanguages/Python/functions/arithmeticOperators/ReadMe.md",
     "CodeLanguages/Python/functions/arithmeticOperators/arithmeticOperators.md",
