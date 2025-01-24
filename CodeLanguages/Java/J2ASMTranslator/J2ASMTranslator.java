@@ -1,9 +1,26 @@
-package Java.JavaToAssembly;
+package Java.J2ASMTranslator;
 
 import java.util.*;
 import java.io.*;
 
 public class J2ASMTranslator {
+    public static void main(String[] args) {
+        String javaCode = """
+            public class Example {
+                public static void main(String[] args) {
+                    int x = 5;
+                    int y = 10;
+                    int z = x + y;
+                }
+            }
+            """;
+    
+        J2ASMTranslator translator = new J2ASMTranslator();
+        String assembly = translator.translate(javaCode);
+        System.out.println("Generated Assembly:");
+        System.out.println(assembly);
+    }
+    
     private JavaParser parser;
     private AssemblyGenerator generator;
     private Optimizer optimizer;
@@ -163,7 +180,41 @@ class JavaParser {
 
         ASTNode root = new BasicASTNode("PROGRAM", "root");
         
-        while (currentPosition < tokens.size()) {
+        // Skip class declaration
+        while (currentPosition < tokens.size() && 
+               !tokens.get(currentPosition).value.equals("class")) {
+            currentPosition++;
+        }
+        currentPosition++; // Skip "class" keyword
+        
+        // Skip class name
+        if (currentPosition < tokens.size()) {
+            currentPosition++; // Skip class name
+        }
+        
+        // Skip opening brace
+        while (currentPosition < tokens.size() && 
+               !tokens.get(currentPosition).value.equals("{")) {
+            currentPosition++;
+        }
+        currentPosition++; // Skip "{"
+
+        // Skip method declaration
+        while (currentPosition < tokens.size() && 
+               !tokens.get(currentPosition).value.equals("main")) {
+            currentPosition++;
+        }
+        
+        // Skip until method body
+        while (currentPosition < tokens.size() && 
+               !tokens.get(currentPosition).value.equals("{")) {
+            currentPosition++;
+        }
+        currentPosition++; // Skip "{"
+
+        // Parse the actual statements
+        while (currentPosition < tokens.size() && 
+               !tokens.get(currentPosition).value.equals("}")) {
             ASTNode node = parseNextStatement();
             if (node != null) {
                 root.addChild(node);
@@ -189,17 +240,17 @@ class JavaParser {
 
     private TokenType determineTokenType(String token) {
         if (token.matches("\\d+")) return TokenType.NUMBER;
+        if (isKeyword(token)) return TokenType.KEYWORD;
         if (token.matches("[a-zA-Z][a-zA-Z0-9]*")) return TokenType.IDENTIFIER;
         if (token.equals("=")) return TokenType.EQUALS;
         if (token.equals(";")) return TokenType.SEMICOLON;
         if (token.equals("+") || token.equals("-") || 
             token.equals("*") || token.equals("/")) return TokenType.OPERATOR;
-        if (isKeyword(token)) return TokenType.KEYWORD;
         return TokenType.OTHER;
     }
 
     private boolean isKeyword(String token) {
-        String[] keywords = {"public", "class", "static", "void", "int", "double", "return"};
+        String[] keywords = {"public", "class", "static", "void", "main", "int", "double", "return"};
         return Arrays.asList(keywords).contains(token);
     }
 
@@ -215,13 +266,14 @@ class JavaParser {
                 if (token.value.equals("int") || token.value.equals("double")) {
                     return parseVariableDeclaration();
                 }
-                break;
+                currentPosition++;
+                return null;
             case IDENTIFIER:
                 return parseAssignment();
+            default:
+                currentPosition++;
+                return null;
         }
-        
-        currentPosition++;
-        return null;
     }
 
     private ASTNode parseVariableDeclaration() throws Exception {
@@ -258,23 +310,6 @@ class JavaParser {
         return new VariableDeclarationNode(dataType, identifier, null);
     }
 
-    // Add AssignmentNode class
-    class AssignmentNode extends ASTNode {
-        private String identifier;
-        private String expression;
-
-        public AssignmentNode(String identifier, String expression) {
-            super("ASSIGNMENT", identifier);
-            this.identifier = identifier;
-            this.expression = expression;
-        }
-
-        public String getExpression() {
-            return expression;
-        }
-    }
-
-    // Add the missing parseAssignment method
     private ASTNode parseAssignment() throws Exception {
         String identifier = tokens.get(currentPosition++).value;
         
@@ -302,6 +337,22 @@ class JavaParser {
         }
         
         return new AssignmentNode(identifier, expression.toString());
+    }
+
+    // AssignmentNode inner class
+    public static class AssignmentNode extends ASTNode {
+        private String identifier;
+        private String expression;
+
+        public AssignmentNode(String identifier, String expression) {
+            super("ASSIGNMENT", identifier);
+            this.identifier = identifier;
+            this.expression = expression;
+        }
+
+        public String getExpression() {
+            return expression;
+        }
     }
 }
 
@@ -461,21 +512,4 @@ class SymbolInfo {
         this.type = type;
         this.scope = scope;
     }
-
-public static void main(String[] args) {
-    String javaCode = """
-        public class Example {
-            public static void main(String[] args) {
-                int x = 5;
-                int y = 10;
-                int z = x + y;
-            }
-        }
-        """;
-
-    J2ASMTranslator translator = new J2ASMTranslator();
-    String assembly = translator.translate(javaCode);
-    System.out.println("Generated Assembly:");
-    System.out.println(assembly);
-}
 }

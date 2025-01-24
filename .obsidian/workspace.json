@@ -234,6 +234,8 @@
   "lastOpenFiles": [
     "CodeLanguages/Java/JavaToAssembly/J2ASMTranslator.java",
     "CodeLanguages/Java/JavaToAssembly",
+    "CodeLanguages/Java/J2ASMTranslator/J2ASMTranslator.java",
+    "CodeLanguages/Java/J2ASMTranslator",
     "CodeLanguages/Java/SelfGuidedTexbookWork/printMonthCalendar.java",
     "CodeLanguages/Java/SelfGuidedTexbookWork",
     "CodeLanguages/Java/numberGuessingGameGUI/numberGameGUI.java",
@@ -242,8 +244,6 @@
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/three.r124.min.js",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/three-LICENSE",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/main.js",
-    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/index.html",
-    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/WindowManager.js",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/README.md",
     "CodeLanguages/Kotlin/ReadMe.md",
     "CodeLanguages/Python/functions/arithmeticOperators/ReadMe.md",
