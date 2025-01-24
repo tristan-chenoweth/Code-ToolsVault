@@ -52,8 +52,8 @@ public class printMonthCalendar {
         int startDay = getStartDay(year, month);
         int numberOfDaysInMonth = getNumberOfDaysInMonth(year, month);
 
-        startDay = startDay;
-        // System.out.println("Start Day: " + startDay);
+        startDay = startDay %7;
+        System.out.println("Start Day: " + startDay);
 
         int i = 0;
         if (startDay != 7){
@@ -97,10 +97,10 @@ public class printMonthCalendar {
         for(int i = 1; i < month; i++){
             total = total + getNumberOfDaysInMonth(year, i);
         }
-        // System.out.println(total);
-        // System.out.println(total % 7);
+        System.out.println(total);
+        System.out.println(total % 7);
 
-        return total;
+        return (total %7);
     }
 
     public static int getNumberOfDaysInMonth(int year, int month){
