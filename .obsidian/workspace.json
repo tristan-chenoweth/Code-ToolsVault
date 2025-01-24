@@ -232,6 +232,7 @@
   },
   "active": "ec8bc6ab5e2dd70c",
   "lastOpenFiles": [
+    "CodeLanguages/Assembly/Calculator.asm",
     "CodeLanguages/Java/JavaToAssembly/J2ASMTranslator.java",
     "CodeLanguages/Java/JavaToAssembly",
     "CodeLanguages/Java/J2ASMTranslator/J2ASMTranslator.java",
@@ -243,7 +244,6 @@
     "CodeLanguages/Java/numberGuessingGameGUI",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/three.r124.min.js",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/three-LICENSE",
-    "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/main.js",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/README.md",
     "CodeLanguages/Kotlin/ReadMe.md",
     "CodeLanguages/Python/functions/arithmeticOperators/ReadMe.md",
