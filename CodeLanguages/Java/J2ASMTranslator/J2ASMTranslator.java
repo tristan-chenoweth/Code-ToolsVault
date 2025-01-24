@@ -4,23 +4,7 @@ import java.util.*;
 import java.io.*;
 
 public class J2ASMTranslator {
-    public static void main(String[] args) {
-        String javaCode = """
-            public class Example {
-                public static void main(String[] args) {
-                    int x = 5;
-                    int y = 10;
-                    int z = x + y;
-                }
-            }
-            """;
-    
-        J2ASMTranslator translator = new J2ASMTranslator();
-        String assembly = translator.translate(javaCode);
-        System.out.println("Generated Assembly:");
-        System.out.println(assembly);
-    }
-    
+
     private JavaParser parser;
     private AssemblyGenerator generator;
     private Optimizer optimizer;
@@ -35,17 +19,23 @@ public class J2ASMTranslator {
 
     public String translate(String javaCode) {
         try {
-            // 1. Parse Java code into AST
+            System.out.println("Parsing Java code...");
+            System.out.println("\nTokenizing...");
+            List<Token> tokens = parser.tokenize(javaCode);
+            System.out.println("Tokens generated: " + tokens.size());
+            
             AST ast = parser.parse(javaCode);
             
-            // 2. Generate initial assembly
+            System.out.println("Generating assembly...");
             String assembly = generator.generate(ast, symbolTable);
             
-            // 3. Optimize assembly
+            System.out.println("Optimizing assembly...");
             String optimizedAssembly = optimizer.optimize(assembly);
             
             return optimizedAssembly;
         } catch (Exception e) {
+            System.err.println("Translation error:");
+            e.printStackTrace();
             return "Error during translation: " + e.getMessage();
         }
     }
@@ -174,106 +164,50 @@ class JavaParser {
     private int currentPosition;
     private List<Token> tokens;
 
-    public AST parse(String javaCode) throws Exception {
-        tokens = tokenize(javaCode);
-        currentPosition = 0;
-
-        ASTNode root = new BasicASTNode("PROGRAM", "root");
-        
-        // Skip class declaration
-        while (currentPosition < tokens.size() && 
-               !tokens.get(currentPosition).value.equals("class")) {
-            currentPosition++;
-        }
-        currentPosition++; // Skip "class" keyword
-        
-        // Skip class name
-        if (currentPosition < tokens.size()) {
-            currentPosition++; // Skip class name
-        }
-        
-        // Skip opening brace
-        while (currentPosition < tokens.size() && 
-               !tokens.get(currentPosition).value.equals("{")) {
-            currentPosition++;
-        }
-        currentPosition++; // Skip "{"
-
-        // Skip method declaration
-        while (currentPosition < tokens.size() && 
-               !tokens.get(currentPosition).value.equals("main")) {
-            currentPosition++;
-        }
-        
-        // Skip until method body
-        while (currentPosition < tokens.size() && 
-               !tokens.get(currentPosition).value.equals("{")) {
-            currentPosition++;
-        }
-        currentPosition++; // Skip "{"
-
-        // Parse the actual statements
-        while (currentPosition < tokens.size() && 
-               !tokens.get(currentPosition).value.equals("}")) {
-            ASTNode node = parseNextStatement();
-            if (node != null) {
-                root.addChild(node);
-            }
-        }
-
-        return new AST(root);
-    }
-
-    private List<Token> tokenize(String code) {
+    // Make tokenize method public
+    public List<Token> tokenize(String code) {
         List<Token> tokens = new ArrayList<>();
         StringTokenizer tokenizer = new StringTokenizer(code, " \t\n\r\f(){};=+-*/", true);
         
         while (tokenizer.hasMoreTokens()) {
             String token = tokenizer.nextToken().trim();
             if (!token.isEmpty()) {
-                tokens.add(new Token(determineTokenType(token), token));
+                TokenType type = determineTokenType(token);
+                tokens.add(new Token(type, token));
             }
         }
         
         return tokens;
     }
 
-    private TokenType determineTokenType(String token) {
-        if (token.matches("\\d+")) return TokenType.NUMBER;
-        if (isKeyword(token)) return TokenType.KEYWORD;
-        if (token.matches("[a-zA-Z][a-zA-Z0-9]*")) return TokenType.IDENTIFIER;
-        if (token.equals("=")) return TokenType.EQUALS;
-        if (token.equals(";")) return TokenType.SEMICOLON;
-        if (token.equals("+") || token.equals("-") || 
-            token.equals("*") || token.equals("/")) return TokenType.OPERATOR;
-        return TokenType.OTHER;
-    }
+    public AST parse(String javaCode) throws Exception {
+        tokens = tokenize(javaCode);
+        currentPosition = 0;
 
-    private boolean isKeyword(String token) {
-        String[] keywords = {"public", "class", "static", "void", "main", "int", "double", "return"};
-        return Arrays.asList(keywords).contains(token);
-    }
-
-    private ASTNode parseNextStatement() throws Exception {
-        if (currentPosition >= tokens.size()) {
-            return null;
+        // Debug print
+        System.out.println("Tokens:");
+        for (Token t : tokens) {
+            System.out.println(t.type + ": " + t.value);
         }
 
-        Token token = tokens.get(currentPosition);
+        ASTNode root = new BasicASTNode("PROGRAM", "root");
         
-        switch (token.type) {
-            case KEYWORD:
-                if (token.value.equals("int") || token.value.equals("double")) {
-                    return parseVariableDeclaration();
+        while (currentPosition < tokens.size()) {
+            Token token = tokens.get(currentPosition);
+            
+            // Handle variable declarations
+            if (token.type == TokenType.KEYWORD && 
+                (token.value.equals("int") || token.value.equals("double"))) {
+                ASTNode node = parseVariableDeclaration();
+                if (node != null) {
+                    root.addChild(node);
                 }
+            } else {
                 currentPosition++;
-                return null;
-            case IDENTIFIER:
-                return parseAssignment();
-            default:
-                currentPosition++;
-                return null;
+            }
         }
+
+        return new AST(root);
     }
 
     private ASTNode parseVariableDeclaration() throws Exception {
@@ -284,30 +218,47 @@ class JavaParser {
         }
         
         String identifier = tokens.get(currentPosition++).value;
+        String initialValue = null;
         
+        // Check for initialization
         if (currentPosition < tokens.size() && tokens.get(currentPosition).type == TokenType.EQUALS) {
-            currentPosition++; // Skip equals sign
-            
+            currentPosition++; // Skip equals
             if (currentPosition >= tokens.size()) {
                 throw new Exception("Unexpected end of input after equals sign");
             }
             
-            String initialValue = tokens.get(currentPosition++).value;
-            
-            // Skip semicolon if present
-            if (currentPosition < tokens.size() && tokens.get(currentPosition).type == TokenType.SEMICOLON) {
-                currentPosition++;
+            // Handle expression
+            StringBuilder valueBuilder = new StringBuilder();
+            while (currentPosition < tokens.size() && 
+                   tokens.get(currentPosition).type != TokenType.SEMICOLON) {
+                valueBuilder.append(tokens.get(currentPosition++).value);
             }
-            
-            return new VariableDeclarationNode(dataType, identifier, initialValue);
+            initialValue = valueBuilder.toString();
         }
         
-        // Skip semicolon if present
+        // Skip semicolon
         if (currentPosition < tokens.size() && tokens.get(currentPosition).type == TokenType.SEMICOLON) {
             currentPosition++;
         }
         
-        return new VariableDeclarationNode(dataType, identifier, null);
+        return new VariableDeclarationNode(dataType, identifier, initialValue);
+    }
+
+    private TokenType determineTokenType(String token) {
+        if (token.matches("\\d+")) return TokenType.NUMBER;
+        if (isKeyword(token)) return TokenType.KEYWORD;
+        if (token.matches("[a-zA-Z][a-zA-Z0-9]*")) return TokenType.IDENTIFIER;
+        if (token.equals("=")) return TokenType.EQUALS;
+        if (token.equals(";")) return TokenType.SEMICOLON;
+        if (token.equals("+") || token.equals("-") || 
+            token.equals("*") || token.equals("/")) return TokenType.OPERATOR;
+        if (token.equals("{") || token.equals("}")) return TokenType.SEPARATOR;
+        return TokenType.OTHER;
+    }
+
+    private boolean isKeyword(String token) {
+        String[] keywords = {"public", "class", "static", "void", "main", "int", "double", "return"};
+        return Arrays.asList(keywords).contains(token);
     }
 
     private ASTNode parseAssignment() throws Exception {
@@ -364,26 +315,17 @@ class AssemblyGenerator {
         this.assembly = new StringBuilder();
         this.symbolTable = symbolTable;
 
-        // Add initial assembly segments
         generateHeader();
-        
-        // Generate assembly for each node in the AST
         generateCode(ast.getRoot());
-        
-        // Add footer
         generateFooter();
         
         return assembly.toString();
     }
 
-    private void generateHeader() {
-        assembly.append("section .data\n");
-        assembly.append("section .text\n");
-        assembly.append("global _start\n\n");
-        assembly.append("_start:\n");
-    }
-
+    // Add the missing generateCode method
     private void generateCode(ASTNode node) {
+        if (node == null) return;
+
         switch (node.getType()) {
             case "VARIABLE_DECLARATION":
                 generateVariableDeclaration((VariableDeclarationNode)node);
@@ -394,41 +336,47 @@ class AssemblyGenerator {
             case "ASSIGNMENT":
                 generateAssignment((JavaParser.AssignmentNode)node);
                 break;
+            default:
+                // Handle unknown node types
+                System.out.println("Unknown node type: " + node.getType());
         }
 
+        // Process all child nodes
         for (ASTNode child : node.getChildren()) {
             generateCode(child);
         }
     }
 
-    private void generateAssignment(JavaParser.AssignmentNode node) {
-        assembly.append(String.format("\tmov eax, %s\n", node.getExpression()));
-        assembly.append(String.format("\tmov [%s], eax\n", node.getValue()));
-    }
-
-    private void generateVariableDeclaration(VariableDeclarationNode node) {
-        // Generate assembly for variable declaration
-        assembly.append(String.format("\t%s dd %s\n", 
-            node.getValue(), 
-            node.getInitialValue() != null ? node.getInitialValue() : "0"));
-    }
-
-    private void generateMethod(MethodNode node) {
-        // Generate assembly for method
-        assembly.append(String.format("%s:\n", node.getValue()));
-        assembly.append("\tpush ebp\n");
-        assembly.append("\tmov ebp, esp\n");
-        // Generate method body
-        assembly.append("\tmov esp, ebp\n");
-        assembly.append("\tpop ebp\n");
-        assembly.append("\tret\n");
+    private void generateHeader() {
+        assembly.append("section .data\n");
     }
 
     private void generateFooter() {
-        // Exit program
-        assembly.append("\tmov eax, 1\n");
-        assembly.append("\tmov ebx, 0\n");
-        assembly.append("\tint 0x80\n");
+        assembly.append("\nsection .text\n");
+        assembly.append("global _start\n");
+        assembly.append("_start:\n");
+        assembly.append("    mov eax, 1\n");
+        assembly.append("    mov ebx, 0\n");
+        assembly.append("    int 0x80\n");
+    }
+
+    private void generateVariableDeclaration(VariableDeclarationNode node) {
+        String value = node.getInitialValue() != null ? node.getInitialValue() : "0";
+        assembly.append(String.format("    %s: dd %s\n", node.getIdentifier(), value));
+    }
+
+    private void generateMethod(MethodNode node) {
+        assembly.append(String.format("%s:\n", node.getValue()));
+        assembly.append("    push ebp\n");
+        assembly.append("    mov ebp, esp\n");
+        assembly.append("    mov esp, ebp\n");
+        assembly.append("    pop ebp\n");
+        assembly.append("    ret\n");
+    }
+
+    private void generateAssignment(JavaParser.AssignmentNode node) {
+        assembly.append(String.format("    mov eax, %s\n", node.getExpression()));
+        assembly.append(String.format("    mov [%s], eax\n", node.getValue()));
     }
 }
 
@@ -511,5 +459,26 @@ class SymbolInfo {
     public SymbolInfo(String type, int scope) {
         this.type = type;
         this.scope = scope;
+    }
+    public static void main(String[] args) {
+        String javaCode = """
+            public class Example {
+                public static void main(String[] args) {
+                    int x = 5;
+                    int y = 10;
+                    int z = x + y;
+                }
+            }
+            """;
+    
+        System.out.println("Input Java code:");
+        System.out.println(javaCode);
+        System.out.println("\nStarting translation...");
+    
+        J2ASMTranslator translator = new J2ASMTranslator();
+        String assembly = translator.translate(javaCode);
+        
+        System.out.println("\nGenerated Assembly:");
+        System.out.println(assembly);
     }
 }
