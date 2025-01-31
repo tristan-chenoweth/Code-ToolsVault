@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "ReadMe"
             }
+          },
+          {
+            "id": "4d40c7bd90cec695",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.3"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -69,7 +81,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -139,7 +152,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CodeLanguages/Python/functions/arithmeticOperators/ReadMe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ReadMe"
+              "title": "Backlinks"
             }
           },
           {
@@ -206,7 +218,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -230,7 +244,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ec8bc6ab5e2dd70c",
+  "active": "4d40c7bd90cec695",
   "lastOpenFiles": [
     "CodeLanguages/Assembly/Calculator.asm",
     "CodeLanguages/Java/JavaToAssembly/J2ASMTranslator.java",
