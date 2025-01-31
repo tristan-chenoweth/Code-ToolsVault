@@ -6,14 +6,14 @@ import random
 pygame.init()
 
 # Constants
-WIDTH, HEIGHT = 800, 600
+WIDTH, HEIGHT = 1200, 800
 WHITE = (255, 255, 255)
 BALL_SPEED = 5
 PADDLE_SPEED = 10
 
 # Create the game window
 window = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Pong Game - Press R to reset")
+pygame.display.set_caption("Pong Game - Press R to reset - Press X to exit")
 
 # Create the paddles and ball
 player_paddle = pygame.Rect(WIDTH // 2 - 50, HEIGHT - 20, 100, 10)
@@ -66,6 +66,9 @@ while True:
             game_over_text = None
             ball_speed = [random.choice([-BALL_SPEED, BALL_SPEED]), BALL_SPEED]
             freeze_ball = False
+        elif event.type == pygame.KEYDOWN and event.key == pygame.K_x:
+            pygame.quit()
+            sys.exit()
 
     keys = pygame.key.get_pressed()
 
