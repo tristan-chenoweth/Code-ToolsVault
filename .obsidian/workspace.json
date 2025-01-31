@@ -246,6 +246,7 @@
   },
   "active": "4d40c7bd90cec695",
   "lastOpenFiles": [
+    "CodeLanguages/Assembly/HelloWorld/HelloWorld.asm",
     "CodeLanguages/Assembly/HelloWorld",
     "desktop.ini",
     "CodeLanguages/Assembly/Calculator.asm",
@@ -257,7 +258,6 @@
     "CodeLanguages/Java/SelfGuidedTexbookWork",
     "CodeLanguages/Java/numberGuessingGameGUI/numberGameGUI.java",
     "CodeLanguages/Java/numberGuessingGameGUI/ReadMe.md",
-    "CodeLanguages/Java/numberGuessingGameGUI",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/README.md",
     "CodeLanguages/Kotlin/ReadMe.md",
     "CodeLanguages/Python/functions/arithmeticOperators/ReadMe.md",
