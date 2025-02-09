@@ -60,9 +60,21 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.8.3"
             }
+          },
+          {
+            "id": "65c54e5243cad21b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -244,7 +256,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d40c7bd90cec695",
+  "active": "65c54e5243cad21b",
   "lastOpenFiles": [
     "desktop.ini",
     "CodeLanguages/Assembly/HelloWorld/HelloWorld.asm",
