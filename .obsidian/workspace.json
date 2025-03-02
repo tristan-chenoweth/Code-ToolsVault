@@ -258,6 +258,7 @@
   },
   "active": "65c54e5243cad21b",
   "lastOpenFiles": [
+    "CodeLanguages/Ruby/Calculator/calculator.rb",
     "ScriptingLanguages/PowerShell/RubyCalculatorTestScript.ps1",
     "ScriptingLanguages/PowerShell/desktop.ini",
     "CodeLanguages/Ruby/Calculator/desktop.ini",
@@ -274,7 +275,6 @@
     "CodeLanguages/Rust",
     "ScriptingLanguages",
     "CodeLanguages/Assembly/HelloWorld/desktop.ini",
-    "CodeLanguages/Java/J2ASMTranslator/desktop.ini",
     "CodeLanguages/Java/numberGuessingGameGUI/ReadMe.md",
     "CodeLanguages/JavaScript/WindowManipulationBYbgstaal/multipleWindow3dScene/README.md",
     "CodeLanguages/Kotlin/ReadMe.md",
